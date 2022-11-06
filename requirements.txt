@@ -1,5 +1,6 @@
-streamlit==1.0.0
+streamlit
 pandas
 scipy
 numpy
 matplotlib
+seaborn
