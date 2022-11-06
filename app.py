@@ -18,7 +18,8 @@ footer {visibility: hidden;}
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 np.set_printoptions(precision=2, suppress=True)
-pd.set_option("precision", 2)
+pd.set_option("display.precision", 2)
+pd.set_option("styler.format.precision", 2)
 pd.options.display.colheader_justify='center'
 
 # # TODO: Add distance heat map
